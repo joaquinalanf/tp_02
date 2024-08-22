@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp 02</title>
+</head>
+
+<body>
+    <h1>TP_02</h1>
+    <h2>Joaquin Fernandez</h2>
+
+
+    <h3>1.1- ¿qué es una URL?</h3>
+    <p>URL es una dirección a un único recurso en la web, como páginas HTML, documentos CSS, o imagenes. Es común
+        apuntar un recurso no existido o movido, dependiendo del servidor web y su URL manejada adecuadamente.</p>
+
+    <h3>1.2- ¿qué es una url absoluta?</h3>
+    <p>Una URL absoluta es una dirección web completa que incluye el protocolo, el nombre de dominio y la ruta
+        completa del archivo o recurso. </p>
+
+    <h3>1.3- ¿qué es una url relativa?</h3>
+    <p>Las URL relativas son estructuras de URL que contienen la ruta de ubicación, omitiendo el nombre del sitio web
+    </p>
+
+    <h3>1.4- ¿cuál es la diferencia entre una url relativa y una url absoluta?</h3>
+    <p>Una URL absoluta contiene toda la información necesaria para localizar un recurso, mientras que una URL relativa
+        utiliza una URL absoluta como punto de partida, formando la "URL completa" del destino.</p>
+
+    <h3>1.5- Crear tres enlaces absolutos a tres recursos. Los recursos deben ser PDF, PNG, TXT</h3>
+    <p><a href="https://www.elboomeran.com/upload/ficheros/noticias/messi.jpg.pdf">PDF</a></p>
+    <p><a href="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5.png">IMG</a></p>
+    <p><a href="https://github.com/zrafa/articulos/blob/master/resumen-de-nuestro-articulo.txt">TXT</a></p>
+
+
+    <h3>1.6- ¿qué es un directorio? ¿qué relación hay con una carpeta?</h3>
+    <p>un directorio es Un contenedor virtual almacena una serie de archivos electrónicos y subdirectorios,
+        proporcionando información sobre el contenido, el propósito o los criterios definidos por el
+        usuario, incluidos sus atributos y ubicación física. y la relacion que tiene es que es basicamente
+        lo mismo
+    </p>
+
+    <h3>1.7- En la estructura de un proyecto web, ¿a qué se llama directorio raíz? ¿Con qué símbolo se representa?</h3>
+    <p>Un directorio, o carpeta, es un sistema de almacenamiento virtual donde se almacena una colección de archivos y
+        subdirectorios digitales, cumpliendo su contenido, propósito o criterios definidos por el usuario.. se
+        representa con la barra diagonal /</p>
+
+    <h3>1.8 Un archivo XLS que deseamos enlazar se encuentra alojado en el servidor de nuestra institución
+        educativa, dentro de la carpeta de recursos compartidos llamada "documentos". Dentro de esta carpeta,<br>
+        hay otra subcarpeta llamada "excel", donde se encuentra específicamente el archivo que necesitamos,
+        llamado "datos_estudiantes.xls". Sabiendo que el protocolo utilizado es https y nuestra institución
+        es el CET Nº30. <br> Armar la url absoluta para dicho archivo.</h3>
+    <p><a href="https://campus.cet30.edu.ar/my/documentos/excel/dados_estudiantes.xls">Datos_del/la_estudiante</a></p>
+
+    <h3>1.9- Una empresa cuyo dominio es xyzlt.com tiene su logo en archivo gif. El logo está identificado bajo el
+        nombre logo. Se encuentra en un host llamado data. Todos los archivos multimedia están en un directorio llamado
+        asset que organiza dentro según el tipo de archivo, para imágenes se utiliza img, para pdf se utiliza pdf y para
+        audios se utiliza audios. Armar la url absoluta.</h3>
+    <p><a href="https://data.xyzlt.com/asset/img/logo.gif">LOGO</a></p>
+
+    <h3>1.10- ¿Cuál es el propósito de la etiqueta anchor?
+    </h3>
+    <p>El Elemento HTML Anchor crea un enlace a otras páginas de internet, archivos, ubicaciones, direcciones de correo
+        o cualquier URL.</p>
+
+    <h3>1.11- ¿Qué atributo se utiliza en la etiqueta anchor para especificar la URL a la que debe enlazar?
+    </h3>
+    <p>El atributo que se utiliza es el href de un enlace es una etiqueta anchor que indica la relación entre páginas
+        y los motores de búsqueda, consistiendo de un URL y un texto o objeto clicable que los usuarios verán en la
+        página.
+    </p>
+
+    <h3>1.12- ¿Qué sucede si el atributo "href" en la etiqueta anchor está vacío?
+    </h3>
+    <p>lo que pasa es que la etiqueta a (anchor) no sirve sin el atributo y puede ser usado
+        para crear un enlace muerto en una tarea donde no desea un enlace en vivo o sabe el destino.</p>
+
+
+    <h3>1.13- ¿Cuál es el uso del atributo "target" en la etiqueta anchor y cuáles son los posibles valores que puede
+        tener?
+    </h3>
+    <p>Especifica en donde desplegar la URL enlazada. los posibles valores son: _self - _blank - _parent - _top y _self
+    </p>
+
+    <h3>1.14- Entonces ¿qué es un hipervínculo?</h3>
+    <p></p>
+
+    <h3>1.15- Actividad práctica:
+
+        📚 Organizar las materias de 4to año
+
+        📁 Paso 1: Crear la carpeta "Materias" en el proyecto actual 📁
+
+        🤝 Paso 2: Agrupar materias en dos categorías 🤝
+        Dentro de la carpeta "Materias", crea dos grupos para las materias de 4to año: "Aula" y "Taller". De esta manera
+        podemos categorizar las páginas.
+
+        📄 Paso 3: Crear páginas para cada materia 📄
+        En cada materia, crear una página. Cada página debe tener:
+
+        🔹 Título de la materia
+        🔹 Enlace para volver al inicio
+
+        📊 Paso 4: Crear el archivo index.html 📊
+        En la carpeta "Materias", crea un archivo llamado `index.html`. Aquí irá el listado de todas las materias de 4to
+        año, organizadas por los dos grupos que creaste.
+        En el listado, agrega un hipervínculo para cada materia que te lleve directamente a la página correspondiente.
+    </h3>
+
+
+</body>
+
+</html>
